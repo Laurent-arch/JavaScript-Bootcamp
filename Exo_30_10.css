@@ -1,0 +1,73 @@
+* {
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+ul li:nth-child(3) {
+    color: red;
+}
+ul li:nth-child(odd) {
+color: blue;
+}
+
+body{
+    background-image: url("https://clutchpoints.com/wp-content/uploads/2020/10/Lakers-news-LeBron-James-reunites-with-old-friend-Tristan-Thompson-Thumbnail.jpg");
+    background-repeat: repeat-x;
+}
+
+    
+
+nav{
+    margin-left: 40px ;
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    width: 80px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+nav ul li {
+    background-color: aqua;
+    width: 80px;
+    height: 40px;
+    float: left;
+    
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+    color: red;
+
+}
+
+nav ul ul {
+    visibility: hidden;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul ul ul {
+    position: relative;
+    left:80px;
+    top:-40px;
+
+    
+}
+
+nav 

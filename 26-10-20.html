@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+    <title>26_10_20</title> 
+
+    <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
+    
+  
+
+
+
+</head>
+<body>
+    <form method="" action="" > 
+       <fieldset>
+            <legend> Informations</legend>  
+        <input type="text" name="user"   placeholder="username"/> <br>
+        <input type="email" name= "email" placeholder="email"/> <br>
+        <input type="radio" name="sexe" placeholder="sexe"/>
+         <p>Country: </p>
+         <select name="Country" multiple>
+            
+             <optgroup label="Greece">
+                 <option>Attiki</option>
+                 <option>Thessalia</option>
+             </optgroup>
+             
+             
+             <optgroup label="Italy">
+                <option>Roma</option>
+                <option>Milano</option>
+            
+             <optgroup label="France">
+                <option>Paris</option>
+                <option>Lyon</option>
+         </select> <br>
+        </fieldset> 
+        <fieldset>
+            <legend>Preferences</legend>
+        <p>
+            Favorite <span style="color:grey">lessons</span>:
+            <label><input type="checkbox" name="lessons" checked/> CSS</label>
+            <label><input type="checkbox" name="lessons"/> HTML</label>
+            <label><input type="checkbox" name="lessons"/> Javascript </label> <br>
+        </p>
+
+        <p>How much do you like HTML</p> 
+        <input type="range" min="0" max="5" value="5"/>
+ 
+        <p>Choose the color: <input type="color" value="#D42180"/></p>
+
+
+         <p style="color:green;"> /* inline CSS, pio dinati*/
+             A few words about you <br> <br>
+             <textarea name="comments" rows="5" cols="50"> by default 2 lignes
+
+             </textarea> <br> 
+         </p>
+        <input type="submit" value="Sign up"/> 
+
+        </fieldset>
+
+    </form>    
+</body>
+</html>
+
+
+

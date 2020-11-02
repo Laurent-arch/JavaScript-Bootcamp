@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: blue;
+    
+}
+
+h1{
+    color: orange;
+    background-color: navy;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 300%;
+}
+
+h4{
+    color: white;
+    font-size: 200%;
+
+}
+
+h3{
+    color: tomato;
+    font-size: 200%;
+
+}
+
+ul{
+    font-size: 130%;
+
+}
+
+ol{
+    font-size: 130%;
+
+}

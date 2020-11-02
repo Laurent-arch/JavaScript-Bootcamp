@@ -1,0 +1,35 @@
+* {
+    margin:0 ;
+    padding: 0;
+    }
+
+.container{
+    width: 800px;
+    height: 400px;
+    background-color:white;
+}
+
+header {
+    width: 800px;
+    height: 150px;
+    background-color: skyblue;
+}
+
+aside {
+    width: 150px;
+    height: 200px;
+    float: left;
+    border-right: 5px ;
+    border-right: solid slategrey;
+}
+
+main {
+    width: 720px;
+    height: 200px;
+}
+
+footer {
+    height: 100px;
+    width: 800px;
+    background-color: skyblue;
+}
